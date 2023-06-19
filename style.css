@@ -1,0 +1,101 @@
+* {
+    line-height: 1.5;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body {
+    background-color: rgb(93, 118, 171);
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+main,
+footer {
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+header,
+footer {
+    background-color: rgb(208, 101, 25);
+    color: rgb(241, 241, 241)
+}
+
+header {
+    width: 82%;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    z-index: auto;
+    z-index: 1000;
+}
+
+main {
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    margin-top: 0px;
+    z-index: 0;
+    padding-top: 5px;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: rgb(255, 175, 38);
+}
+
+nav li a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(42, 42, 42)
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.gallery img {
+    height: 180px;
+    width: 30%;
+    object-fit: cover;
+    object-position: 25% 50%;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    display: flex;
+}
+
+.contact input,
+textarea {
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+}
+footer{
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
